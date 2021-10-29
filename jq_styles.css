@@ -1,0 +1,61 @@
+/* styles.css */
+
+/*stole some styles from Jim*/
+body {
+   font-family: 'Averia Serif Libre', cursive;
+   background-color: #d4b69d;
+   color: #233635;
+}
+
+h1{
+   text-align: center;
+}
+
+li {
+    margin-left: 1em;
+    color: blue;
+    font-stle: underline;
+    cursor: pointer;
+    
+}
+
+/*button css partly taken from w3 schools 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic */
+
+.button_c{
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+
+#btn_clear{
+   font-size: 13px;
+}
+
+main {
+    margin: 4em;
+}
+
+#message {
+    padding: 0.5em 0;
+    color: darkred;
+}
+
+footer {
+   clear:right;
+   border-top: 2px solid #233635;
+}
+
+footer p {
+   font-size: 80%;
+   float: right;
+   padding: 0;
+   margin: 0.2em;
+}

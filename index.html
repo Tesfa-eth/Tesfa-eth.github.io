@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Book Search</title>
+  
+  <link rel="stylesheet" href="jq_styles.css">
+  <script src="jquery-3.6.0.min.js"></script>  
+  <script src="underscore-umd-min.js"></script>  
+  <script src="jq_ajax.js"></script>
+</head>
+<body>
+  <h1>Book information library</h1>
+  <main>
+    <h3>Look up book information using ISBN 10/13. Based on your input, this site will extract
+      a book information from <a href="https://openlibrary.org/developers/api">openlibrary api.</a></h3>
+    <div>
+      <button id="btn1" class="button_c button1" onclick="searchBooks()" type="button">Search book</button>
+      <ul id="book"> </ul>
+    </div>
+    <div>
+        <a id="isbn_website" href="https://isbnsearch.org/search?s=Selfish+gene">Only have a book title?</a>
+    </div>
+    <div id="message"></div>
+    <div>
+        <a href="index.html?html">html</a> | 
+        <a href="jq_styles.css?html">css</a>| 
+        <a href="jq_ajax.js?html">js</a>
+    </div>
+    <div>
+      <button id="btn_clear" class="button_c" onclick="clearSpace('#book')" type="button">Clear Result</button>
+    </div>
+    <div>
+      <p id="debug"></p>
+    </div>
+  </main>
+  <footer>
+    <p>Tesfatsion Shiferaw |
+      <a href="https://cs.bennington.college">cs.bennington.college</a> |
+      <a href="https://opensource.org/licenses/MIT">MIT LIcense</a> |
+      September 2021</p>
+  </footer>
+    
+</body>
+</html>
